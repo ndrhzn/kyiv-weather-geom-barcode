@@ -45,7 +45,7 @@ g <- ggplot(weather, aes(frame = year, cumulative = TRUE))+
                      expand = c(0, 0))+
   labs(title = "Температура в Києві, 1900-2014 рік",
        subtitle = str_wrap("Горизонтальні лінії на графіку позначають середню температуру для кожного місяця за період спостережень з 1900 до 2014 року", 160),
-       caption = "\nДані: Центральна геофізична обсерваторія Візуалізація: Textura.in.ua")+
+       caption = "\nДані: Центральна геофізична обсерваторія | Візуалізація: Textura.in.ua")+
   theme_minimal()+
     theme(text = element_text(family = 'Ubuntu Condensed', face = 'plain', color = '#3A3F4A'),
           axis.title = element_blank(),
