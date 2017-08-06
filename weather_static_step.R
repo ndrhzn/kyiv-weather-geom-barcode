@@ -92,8 +92,8 @@ ggplot(weather)+
   scale_x_continuous(breaks = 1:13, labels = NULL, expand = c(0.01, 0.01))+
   scale_y_continuous(breaks = seq(-15, 25, 5), limits = c(-19, 31),
                      expand = c(0, 0))+
-  labs(title = "Температура в Києві, 1812-2014 рік",
-       subtitle = str_wrap("Горизонтальні лінії на графіку позначають середню температуру для кожного місяця за період спостережень з 1812 до 2014 року", 160),
+  labs(title = "Температура в Києві, 1812-2016 рік",
+       subtitle = str_wrap("Горизонтальні лінії на графіку позначають середню температуру для кожного місяця за період спостережень з 1812 до 2016 року", 160),
        caption = "\nДані: Центральна геофізична обсерваторія | Візуалізація: Textura.in.ua")+
   theme_minimal()+
   theme(text = element_text(family = 'Ubuntu Condensed', face = 'plain', color = '#3A3F4A'),
